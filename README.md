@@ -37,8 +37,6 @@
 <br />
 ONEW Studio QQ交流群：981893945 欢迎来玩<br /><br />
 
-2.通用工作室（本合集所用的Windows PE源自通用工作室的TonPE）<br />
-
 ## 其他
 
 所有的Windows CE Emulator均从微软分发的SDK中提取。
