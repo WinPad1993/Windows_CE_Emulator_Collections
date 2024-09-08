@@ -1,17 +1,17 @@
 <div align="center">
   
-  # Windows CE Shell Emulator Collections
-  基于 Windows PE 的 Windows CE Shell Emulator 合集<br /><br />
+  # Windows CE Emulator Collections
+  基于 Windows PE 的 Windows CE Emulator 合集<br /><br />
   
 </div>
 
 
-## 什么是CE Win32 Shell Emulator Collections<br />
+## 什么是CE Emulator Collections<br />
 微软公司开发Windows CE 1.0至Windows CE 3.0时，为便于开发者在自己的电脑上直接测试他们所编写的WinCE Apps，在部分Windows CE（或CE内核的操作系统，如Windows Pocket PC 2000等）的SDK中附带了可以在Windows NT上运行的Shell模拟器，然而随着Windows NT family的不断开发，Windows对这些模拟器兼容性也会越来越差（如在Windows 11 中，已无法启动这些版本SDK的安装程序），甚至完全失去了对模拟器的支持（如Windows Pocket PC 2000 模拟器）。于是为便于这些模拟器的运行，借助Windows PE，制作了这个合集。<br />
 
 ## 如何使用
-由于本镜像基于Windows PE（Windows XP内核），故可以直接将其挂载到虚拟机中，选择菜单会在开机完成后自动启动，只需根据菜单上的提示输入数字，以启动你想要的模拟器。
-**注意：该镜像要求虚拟机内存达到512MB，并且不需要硬盘镜像！** <br />
+由于本镜像基于Windows PE（Windows 2000,FLP内核），故可以直接将其挂载到虚拟机中，选择菜单会在开机完成后自动启动，只需根据菜单上的提示输入数字，以启动你想要的模拟器。
+**注意：该镜像要求虚拟机内存达到700MB，并且不需要硬盘镜像！** <br />
 
 
 ## 集成列表
