@@ -15,10 +15,9 @@
 
 
 ## 集成列表
-绿色:已集成  红色：已包含，但因技术原因不可集成，且不包含在选择菜单里
-Win32 Shell 系列：
-![image](https://github.com/user-attachments/assets/349bcc68-ad49-4a02-90c6-3838abe0be65)
-
+绿色:已集成  红色：已包含，但因技术原因不可集成，且不包含在选择菜单里<br />
+Win32 Shell 系列：<br />
+![image](https://github.com/user-attachments/assets/454028c0-a3af-4876-99a7-f3b7de732b52)<br />
 
 
 ## 特别鸣谢
