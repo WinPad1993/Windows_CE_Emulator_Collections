@@ -16,9 +16,11 @@
 
 
 ## 集成列表
-绿色:已集成  红色：已包含，但因技术原因不可集成，且不包含在选择菜单里<br />
-Win32 Shell 系列：<br />
-![image](https://github.com/user-attachments/assets/29fc46e5-6c3d-48b3-aee1-c32ce2f2a0df)
+绿色:已集成且能够较为正常地工作。<br />  
+蓝色:已集成但具有问题。<br />
+黄色:未集成。<br />
+<br />
+![Windows CE collections集成列表-1](https://github.com/user-attachments/assets/fc3a1ea5-b40a-4c57-805c-0f3d862b9a76)
 <br />
 
 
