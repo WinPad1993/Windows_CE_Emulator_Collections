@@ -2,6 +2,7 @@
   
   # Windows CE Emulator Collections
   Windows CE Emulator Collection Based on Windows PE<br /><br />
+  中文说明：https://github.com/WinPad1993/Windows_CE_Emulator_Collections/blob/main/README.md
   
 </div>
 
