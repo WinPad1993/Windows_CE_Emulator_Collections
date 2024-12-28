@@ -20,7 +20,7 @@
 蓝色:已集成但具有问题。<br />
 黄色:未集成。<br />
 <br />
-![Windows CE collections集成列表-1](https://github.com/user-attachments/assets/fc3a1ea5-b40a-4c57-805c-0f3d862b9a76)
+![CHN](https://github.com/user-attachments/assets/6adaf5e3-6f72-4096-9d2e-95f57d8fabe5)
 <br />
 
 
