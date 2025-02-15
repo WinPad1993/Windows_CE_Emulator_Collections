@@ -19,8 +19,10 @@ Since this image is based on Windows PE (Windows 2000, FLP kernel), it can be di
 ## Here is the systems that can emulated
 Green:Have been added and can work with few problems.<br />
 Azure:Have been added but have some problems.<br />
-Yellow:Haven't been added.<br />
-![eNG](https://github.com/user-attachments/assets/91f7c0fe-900a-4343-937c-0c4f6c2f01f2)
+Yellow:Haven't been added because of some problems.<br />
+Red:Haven't been added because of missing of files.<br />
+Black:Maybe won't be added.<br />
+![-qr826beymhox4yu7-001](https://github.com/user-attachments/assets/533c8286-c3ec-425d-bb28-1e5b0c230fa1)
 <br />
 
 
