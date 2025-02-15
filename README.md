@@ -18,9 +18,11 @@
 ## 集成列表
 绿色:已集成且能够较为正常地工作。<br />
 蓝色:已集成但具有问题。<br />
-黄色:未集成。<br />
+黄色:因技术原因未集成。<br />
+红色:因资源缺失原因未集成。<br />
+黑色：很有可能永远不会加入。<br />
 <br />
-![CHN](https://github.com/user-attachments/assets/6adaf5e3-6f72-4096-9d2e-95f57d8fabe5)
+![-lhesbm4ds77tijt0-001](https://github.com/user-attachments/assets/703b3ca4-6716-410b-af9d-84397bc40a48)
 <br />
 
 
