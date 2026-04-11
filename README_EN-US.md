@@ -14,7 +14,40 @@ When Microsoft developed Windows CE 1.0 to Windows CE 3.0, in order to facilitat
 ## How to use it
 Since this image is based on Windows PE (Windows 2000, FLP kernel), it can be directly mounted into the virtual machine. The selection menu will automatically start after the boot is complete. Just enter the number according to the prompt on the menu to start the simulator you want. 
 **Note: This image requires the virtual machine to have 700MB of memory and does not require a hard disk image!** <br />
+### CEEC Configuration Notice – Tips for Successful Emulation
 
+**By HAWEEN CHEN**  
+*9th April 2026*
+
+First of all, a big thank you to **ONEW STUDIO** for the **CEEC (Windows CE Emulator Collections)** project. It's a fantastic initiative for exploring and preserving the Windows CE environment on modern PC hardware.
+
+During my recent deployment, I encountered a few configuration hurdles that I managed to troubleshoot and resolve. I wanted to leave this comment to document those findings in the hope that they help other users avoid the same pitfalls.
+
+#### 🔧 Configuration Hints & Troubleshooting
+
+**1. Hypervisor Compatibility: Use VirtualBox instead of VMware**
+Due to specific display driver and mouse integration issues within the pre-installed environment (PE) stage of CEEC, **VMware Workstation/Player is not recommended** for this project. I experienced significant cursor misalignment and graphical glitches. Switching the VM to **Oracle VirtualBox** resolved these input and display issues completely.
+
+**2. Virtual Optical Drive Configuration (CRITICAL)**
+This is the most common cause of the *"Path Not Found"* error during setup. When configuring the virtual machine settings for CEEC:
+
+- ❌ **DO NOT** use **ICH6**, **SATA**, or **AHCI** controllers for the virtual CD/DVD drive.
+- ✅ **MUST** use a **IDE ** controller for the optical device.
+
+Failure to set the optical drive to IDE mode **will** result in the emulator being unable to locate the system path, causing the boot process to halt immediately.
+
+**3. Bootloader Drive Letter Limitation (D:\ Requirement)**
+Due to a hard-coded limitation in the current bootloader version( 0.4.5 or lower ver.), the CEEC environment expects the content volume (whether it's a RAMDisk or iso file) to be mounted specifically at **`D:\`**. If the media is assigned any other drive letter even failed to connect, the loader will fail to find the required components and the emulation will not start.
+
+- **For a Stable Experience,** It is strongly recommended **never unmount or eject** the virtual CD/DVD drive during the session.
+- **For Quick Testing Only,** As an alternative fallback, you *can* attempt to run older CE versions (1.0 - 2.0) and some legacy emulator binaries within a **Windows 2000 or Windows XP** virtual machine environment even phycial machine **with out install any SDK and VB2005 component**. However, please be aware that the user experience and hardware compatibility in this fallback scenario are significantly inferior to the native CEEC environment.
+
+---
+
+CEEC is an excellent resource for diving into the legacy of Windows CE. While some quirks with the PE driver environment remain, I'm excited to see how this project evolves. Keep up the great work!
+
+**HAWEEN CHEN**
+```
 
 ## Here is the systems that can emulated
 Green:Have been added and can work with few problems.<br />
