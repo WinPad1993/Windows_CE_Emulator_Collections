@@ -47,7 +47,6 @@ Due to a hard-coded limitation in the current bootloader version( 0.4.5 or lower
 CEEC is an excellent resource for diving into the legacy of Windows CE. While some quirks with the PE driver environment remain, I'm excited to see how this project evolves. Keep up the great work!
 
 **HAWEEN CHEN**
-```
 
 ## Here is the systems that can emulated
 Green:Have been added and can work with few problems.<br />
